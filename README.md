@@ -10,18 +10,20 @@ Switch quicker between Azure subscriptions
 
 ## Installation
 * [Linux](#ubuntu/debian/arch)
+* [MacOS](#macos)
 * [Windows](#windows)
     * [chocolatey](#chocolatey)
     * [manual](#manual)
+
 
 ### Ubuntu/Debian/Arch
 Copy the binary into your $PATH
 ```sh
 # Download the latest release
-wget https://github.com/eliasericsson/azswitch/releases/download/v0.1.4/azswitch_0.1.4_linux_amd64.tar.gz
+wget https://github.com/eliasericsson/azswitch/releases/download/v0.1.4/azswitch_0.1.4_linux_64-bit.tar.gz
 
 # Extract the archive contents
-tar -xvf azswitch_0.1.4_linux_amd64.tar.gz
+tar -xvf azswitch_0.1.4_linux_64-bit.tar.gz
 
 # Move the binary to a directory in your $PATH
 mv azswitch /usr/local/bin/
